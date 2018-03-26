@@ -1,0 +1,31 @@
+[{
+		"name": "Input",
+		"parameters": ["index", "reads.pair.1", "reads.pair.2", "input.format", "quality.value.scale", "integer.quality.value", "mate.orientations", "novel.splicesites.infile"]
+	},
+	{
+		"name": "Advanced Customization of run",
+		"hidden": true,
+		"parameters": ["max.reads.to.align", "ignore.read.qualities", "align", "min.mismatch.penalty", "max.mismatch.penalty",
+			"soft.clipping", "min.softclip.penalty", "max.softclip.penalty", "min.n.ceil", "max.n.ceil", "ambiguous.read.penalty",
+			"read.gap.open.penalty", "read.gap.extend.penalty", "reference.gap.open.penalty", "reference.gap.extend.pen", "spliced.alignments",
+			"penalty.for.canonical.splice.sites", "penalty.for.non-canonical.splice.sites", "min.score.align", "max.score.align", "minimum.fragment.length.for.paired.alignment",
+			"maximum.fragment.length.for.paired.alignment", "unpaired.alignments.for.paired.reads", "discordant.alignments.for.paired.reads", "max.seeds.extended",
+			"max.primary.alignments", "secondary.alignments"]
+	}, {
+		"name": "Parameters with default values for long mammalian introns",
+		"hidden": true,
+		"parameters": ["min.penalty.long.introns.with.canonical.splice.sites", "max.penalty.long.introns.with.canonical.splice.sites",
+			"min.penalty.long.introns.with.noncanonical.splice.sites", "max.penalty.long.introns.with.noncanonical.splice.sites","minimum.intron.length", "maximum.intron.length"]
+	},
+	{
+		"name": "Supplementary Output",
+		"hidden": true,
+		"parameters": ["novel.splicesites", "mapped.reads", "unmapped.reads"]
+	},
+	{
+		"name": "Output",
+		"parameters": ["output.prefix", "dry.run"],
+		"hidden": false
+	}
+
+]
