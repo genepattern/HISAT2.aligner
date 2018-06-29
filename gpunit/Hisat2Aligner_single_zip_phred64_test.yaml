@@ -16,8 +16,9 @@ params:
 assertions:
     jobStatus: success
     numFiles: 1
-    files: 
-        "mapped.sam": !!null
+    #gpunit complains "null; mapping values are not allowed here"
+    #files: 
+        #"mapped.sam": !!null
     #doesn't work if your username isn't "ted"   
     #diffCmd: ./difftail.sh
     #files:
