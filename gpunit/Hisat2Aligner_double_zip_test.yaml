@@ -13,7 +13,7 @@ params:
     "input.format": fastA
     "output.prefix": mapped
 assertions:
-  jobStatus: success
+    jobStatus: success
     diffCmd: ./difftail.sh
     files:
         mapped.sam:
