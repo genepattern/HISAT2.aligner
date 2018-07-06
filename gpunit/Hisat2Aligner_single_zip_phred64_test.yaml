@@ -14,6 +14,7 @@ params:
     "mate.orientations": "first mate reverse, second mate forward"
     "output.prefix": reversed
 assertions:
+    jobStatus: success
     diffCmd: ./difftail.sh
     files:
         reversed.sam:
