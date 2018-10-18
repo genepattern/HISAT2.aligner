@@ -321,6 +321,7 @@ def generate_command():
 if __name__ == '__main__':
 
     revised_command = generate_command()
+    retval = 0
 
     if dryRun:
         print(revised_command)
@@ -345,4 +346,4 @@ if __name__ == '__main__':
 
     if not (indexDirToDelete == None):
         shutil.rmtree(indexDirToDelete)
-
+    sys.exit(retval)    
