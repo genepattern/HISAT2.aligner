@@ -1,5 +1,5 @@
 #Mon, 12 Feb 2018 11:19:35 -0800
-#Hisat2Aligner
+#HISAT2Aligner
 #Fri Feb 02 21:20:19 UTC 2018
 JVMLevel=
 taskDoc=doc.html
@@ -12,7 +12,7 @@ description=HISAT2 is a fast and sensitive alignment program for mapping next-ge
 fileFormat=sam
 language=any
 job.docker.image=genepattern/docker-hisat2:v0.12
-name=Hisat2Aligner
+name=HISAT2Aligner
 os=any
 p10_MODE=
 p10_TYPE=Integer
@@ -616,7 +616,7 @@ p9_type=java.lang.Integer
 p9_value=
 privacy=public
 quality=production
-taskType=Sequence Analysis
+taskType=rna-seq
 userid=ted
 version=
 publicationDate=02/12/2018 11\:19 
