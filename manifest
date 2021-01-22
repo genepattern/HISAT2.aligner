@@ -236,7 +236,7 @@ p25_optional=
 p25_prefix=
 p25_prefix_when_specified=
 p25_type=java.lang.String
-p25_value=--fr\=first mate forward, second mate reverse;--rf\=first mate reverse, second mate forward;--ff\=both mates forward
+p25_value=--fr\=first mate forward, second mate reverse (--fr);--rf\=first mate reverse, second mate forward (--rf);--ff\=both mates forward (--ff)
 p26_MODE=IN
 p26_TYPE=FILE
 p26_default_value=
