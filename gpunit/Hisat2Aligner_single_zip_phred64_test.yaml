@@ -11,7 +11,7 @@ params:
     "index": https://datasets.genepattern.org/data/test_data/Hisat2/22_20-21M_snp.zip
     "input.format": fastA
     "quality.value.scale":  "phred64-quals"
-    "mate.orientations": "first mate forward, second mate reverse (--fr)"
+    "mate.orientations": "first mate forward, second mate reverse (--fr)TEST"
     "output.prefix": reversed
 assertions:
     jobStatus: success
