@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project basedir="" default="create-zip" name="Hisat2.aligner">
+<project basedir="" default="create-zip" name="HISAT2.aligner">
 <property name="dirOffset" value="../common_module_code" />
 <import file="${dirOffset}/commontargets.xml" />
 
