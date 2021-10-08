@@ -1,3 +1,9 @@
+#updated after building 1.1
+#Mon, 25 Jan 2021 18:20:48 -0500
+#updated after building 1.75
+#Fri, 26 Oct 2018 13:17:37 -0400
+#updated after building 0.74
+#Thu, 18 Oct 2018 15:18:37 -0400
 #updated after building 0.73
 #Wed, 17 Oct 2018 14:01:39 -0400
 #updated after building 0.72
@@ -8,4 +14,4 @@
 #Mon, 26 Mar 2018 14:24:24 -0400
 #updated after building 0.2.1
 #Tue, 13 Feb 2018 18:04:22 -0500
-prerelease.number=74
+prerelease.number=2
