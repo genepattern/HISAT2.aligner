@@ -5,7 +5,7 @@
 # It took about 2 hrs 10 min to run.
 #
 name: testHISAT2Aligner_single_zip
-module: HISAT2Aligner
+module: HISAT2.aligner
 params: 
     "reads.pair.1": https://datasets.genepattern.org/data/test_data/Hisat2/reads_1.fa 
     "index": https://datasets.genepattern.org/data/test_data/Hisat2/22_20-21M_snp.zip
