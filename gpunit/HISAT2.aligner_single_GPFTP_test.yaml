@@ -3,6 +3,7 @@
 # circa the public release of v1.
 # ant -f ${GPUNIT_HOME}/build.xml -Dgpunit.diffStripTrailingCR="--strip-trailing-cr" -Dgp.host="gp-beta-ami.genepattern.org" -Dgp.url="https://gp-beta-ami.genepattern.org" -Dgp.user="ted" -Dgp.password="" -Dgpunit.testfolder=`pwd` gpunit
 # It took about 2 hrs 10 min to run.
+# Suggest running with 4GB
 #
 name: testHISAT2.aligner_single_GPFTP_zip
 module: Hisat2.aligner
