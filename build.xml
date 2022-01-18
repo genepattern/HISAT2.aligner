@@ -6,14 +6,14 @@
 <target name="create-zip" depends="init">
     <antcall target="prezip"/>
     <zip destfile="${dest.dir}/${ant.project.name}.zip" whenempty="fail" defaultexcludes="true">
-        <fileset dir="." includes="*.html, manifest, *.json, Dockerfile, LICENSE"/>
+        <fileset dir="." includes="manifest, *.json, Dockerfile, LICENSE"/>
         <zipfileset dir="src" includes="*.py, *.txt"/>
     </zip>
     <antcall target="postzip"/>
 </target>
 <target name="create-zip-2" depends="init">
     <zip destfile="${ant.project.name}.zip" whenempty="fail" defaultexcludes="true">
-        <fileset dir="." includes="*.html, manifest, *.json, Dockerfile, LICENSE"/>
+        <fileset dir="." includes="manifest, *.json, Dockerfile, LICENSE"/>
         <zipfileset dir="src" includes="*.py, *.txt"/>
     </zip>
 </target>
