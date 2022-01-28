@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project basedir="" default="create-zip" name="HISAT2Aligner">
+<project basedir="" default="create-zip" name="HISAT2.aligner">
 <property name="dirOffset" value="../common_module_code" />
 <import file="${dirOffset}/commontargets.xml" />
 
 <target name="create-zip" depends="init">
     <antcall target="prezip"/>
     <zip destfile="${dest.dir}/${ant.project.name}.zip" whenempty="fail" defaultexcludes="true">
-        <fileset dir="." includes="*.html, manifest, *.json"/>
+        <fileset dir="." includes="manifest, *.json, Dockerfile, LICENSE"/>
         <zipfileset dir="src" includes="*.py, *.txt"/>
     </zip>
     <antcall target="postzip"/>
 </target>
 <target name="create-zip-2" depends="init">
     <zip destfile="${ant.project.name}.zip" whenempty="fail" defaultexcludes="true">
-        <fileset dir="." includes="*.html, manifest, *.json"/>
+        <fileset dir="." includes="manifest, *.json, Dockerfile, LICENSE"/>
         <zipfileset dir="src" includes="*.py, *.txt"/>
     </zip>
 </target>
