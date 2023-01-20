@@ -8,7 +8,7 @@ name: testHisat2Aligner_single_zip
 module: Hisat2.aligner
 params: 
     "reads.pair.1": https://datasets.genepattern.org/data/test_data/Hisat2/reads_1.fa 
-    "index": ftp://gpftp.broadinstitute.org/module_support_files/hisat2/index/by_genome/H.Sapiens_GRCh38/
+    "index": https://datasets.genepattern.org/gpftp/module_support_files/hisat2/index/index/by_genome/H.Sapiens_GRCh38/
     "input.format": fastA
     "output.prefix": mapped
 assertions:
