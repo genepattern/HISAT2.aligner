@@ -1,8 +1,9 @@
 #Mon, 12 Feb 2018 11:19:35 -0800
-#HISAT2Aligner
+#HISAT2.aligner
 #Fri Feb 02 21:20:19 UTC 2018
 JVMLevel=
 taskDoc=doc.html
+documentationUrl=https://genepattern.github.io/HISAT2.aligner/v2/
 LSID=urn\:lsid\:broad.mit.edu\:cancer.software.genepattern.module.analysis\:00367\:999999999
 author=Ted Liefeld;UCSD
 categories=Sequence Analysis
@@ -12,6 +13,7 @@ description=HISAT2 is a fast and sensitive alignment program for mapping next-ge
 fileFormat=sam
 language=any
 job.docker.image=genepattern/docker-hisat2:v0.12
+src.repo=https://github.com/genepattern/HISAT2.aligner/tree/v1.5
 name=HISAT2.aligner
 os=any
 p10_MODE=

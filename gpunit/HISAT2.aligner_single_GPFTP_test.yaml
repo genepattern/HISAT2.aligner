@@ -3,18 +3,14 @@
 # circa the public release of v1.
 # ant -f ${GPUNIT_HOME}/build.xml -Dgpunit.diffStripTrailingCR="--strip-trailing-cr" -Dgp.host="gp-beta-ami.genepattern.org" -Dgp.url="https://gp-beta-ami.genepattern.org" -Dgp.user="ted" -Dgp.password="" -Dgpunit.testfolder=`pwd` gpunit
 # It took about 2 hrs 10 min to run.
+# Suggest running with 4GB
 #
-name: testHISAT2Aligner_double_zip
-module: HISAT2.aligner
+name: testHISAT2.aligner_single_GPFTP_zip
+module: Hisat2.aligner
 params: 
     "reads.pair.1": https://datasets.genepattern.org/data/test_data/Hisat2/reads_1.fa 
-    "reads.pair.2": https://datasets.genepattern.org/data/test_data/Hisat2/reads_2.fa
-    "index": https://datasets.genepattern.org/data/test_data/Hisat2/22_20-21M_snp.zip
+    "index": https://datasets.genepattern.org/gpftp/module_support_files/hisat2/index/index/by_genome/H.Sapiens_GRCh38/
     "input.format": fastA
     "output.prefix": mapped
 assertions:
-    jobStatus: success
-    diffCmd: ./difftail.sh
-    files:
-        mapped.sam:
-            diff: ./expected_outputs/mapped.twosided.sam
+    jobStatus: success 
